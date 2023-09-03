@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.webviewcompose.ui.theme.WebviewComposeTheme
+import com.example.webviewcompose.webview.CustomTabsComponent
 import com.example.webviewcompose.webview.WebviewComponent
 
 class MainActivity : ComponentActivity() {
@@ -37,9 +38,10 @@ fun WebviewContent() {
         color = MaterialTheme.colorScheme.background
     ) {
         //UriHandlerComponent()
-        WebviewComponent()
+        //WebviewComponent()
 
-        // TODO: implement Google Custom Tabs for toolbar when opening webview
+        //Google Custom Tabs
+        CustomTabsComponent()
     }
 }
 
